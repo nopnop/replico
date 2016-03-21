@@ -1,0 +1,49 @@
+{
+  "name": "replico",
+  "description": "A REPL with bluebird co wrapper",
+  "version": "0.0.0",
+  "author": "Jean Ponchon <jean.ponchon@novadiscovery.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nopnop/replico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nopnop/replico/issues"
+  },
+  "homepage": "https://github.com/nopnop/replico/htmly",
+  "licenses": "MIT",
+  "main": "lib/replico",
+  "bin": {
+    "replico": "bin/replico.js"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "mocha",
+    "spec": "mocha --reporter spec",
+    "monitor": "mocha --reporter spec --watch",
+    "debugtest": "mocha --debug-brk --reporter spec",
+    "coverage": "rm -rf ./lib-cov && jscoverage ./lib ./lib-cov && COVERAGE=true mocha --reporter html-cov > ./coverage.html && rm -rf ./lib-cov",
+    "jshint": "./node_modules/.bin/jshint --exclude node_modules"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "bluebird-co": "^2.1.2"
+  },
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "jshint": "*"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "keywords": [
+    "repl",
+    "co",
+    "coroutine",
+    "bluebird",
+    "promise"
+  ]
+}
