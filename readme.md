@@ -1,10 +1,11 @@
-# replico [![Build Status](https://secure.travis-ci.org/nopnop/replico.png?branch=master)](http://travis-ci.org/nopnop/replico) [![NPM version](https://badge-me.herokuapp.com/api/npm/replico.png)](http://badges.enytc.com/for/npm/replico)
+# replico [![NPM version](https://badge-me.herokuapp.com/api/npm/replico.png)](http://badges.enytc.com/for/npm/replico)
 
 A REPL with bluebird co wrapper
 
 - Track Promise results
 - Support for `yield` keyword (expl: `user = yield db.User.get('foobar')` will populate user variable once promise is resolved)
 
+**BETA: Missing tests and doc**
 
 ## Installation
 
