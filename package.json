@@ -17,7 +17,7 @@
     "replico": "bin/replico.js"
   },
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 5"
   },
   "scripts": {
     "test": "mocha",
