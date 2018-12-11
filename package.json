@@ -1,6 +1,6 @@
 {
   "name": "replico",
-  "description": "A REPL with bluebird co wrapper",
+  "description": "A REPL with support for await",
   "version": "0.1.2",
   "author": "Jean Ponchon <jean.ponchon@novadiscovery.com>",
   "repository": {

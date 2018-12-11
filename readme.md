@@ -1,11 +1,9 @@
 # replico [![NPM version](https://badge-me.herokuapp.com/api/npm/replico.png)](http://badges.enytc.com/for/npm/replico)
 
-A REPL with bluebird co wrapper
+A REPL with support for await
 
 - Track Promise results
-- Support for `yield` keyword (expl: `user = yield db.User.get('foobar')` will populate user variable once promise is resolved)
-
-**BETA: Missing tests and doc**
+- Support for `await` keyword (expl: `user = await db.User.get('foobar')` will populate user variable once promise is resolved)
 
 ## Installation
 
