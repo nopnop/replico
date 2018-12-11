@@ -39,7 +39,7 @@
     "standard-version": "^4.4.0"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "repl",
