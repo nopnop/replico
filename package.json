@@ -29,8 +29,7 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "bluebird": "^3.3.4",
-    "bluebird-co": "^2.1.2"
+    "bluebird": "^3.3.4"
   },
   "devDependencies": {
     "expect.js": "*",
